@@ -1,5 +1,3 @@
-<img src="assets/astronaut-profile.jpg" alt="Astronaut working at a computer" width="180" align="right">
-
 # Eljilani Hbal
 
 MEng Mechatronic and Robotic Engineering graduate from the University of Sheffield. Incoming MEng student in Electrical and Computer Engineering, Applied AI, at McGill University, starting January 2027.
@@ -7,8 +5,6 @@ MEng Mechatronic and Robotic Engineering graduate from the University of Sheffie
 I work on machine learning, medical image segmentation, reinforcement learning, and robotics. Based in Dubai, UAE.
 
 [LinkedIn](https://www.linkedin.com/in/eljilani-hbal-1a167a255/) · [Repositories](https://github.com/Ji2424?tab=repositories)
-
-<br clear="right">
 
 ## Featured projects
 
