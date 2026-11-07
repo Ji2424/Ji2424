@@ -1,22 +1,44 @@
-# Hi, I'm Eljilani Hbal 👋
+<img src="assets/astronaut-profile.jpg" alt="Astronaut working at a computer" width="180" align="right">
 
-AI / Deep Learning Engineer, recently graduated with an MEng in Mechatronic and Robotic Engineering from the University of Sheffield. Based between Dubai, UAE and Sheffield, UK.
+# Eljilani Hbal
 
-I build deep learning, computer vision, and reinforcement learning systems, with a focus on rigorous benchmarking and evaluation, not just getting a model to train. My background spans applied ML, robotics, and agentic AI tooling.
+MEng Mechatronic and Robotic Engineering graduate from the University of Sheffield. Incoming MEng student in Electrical and Computer Engineering, Applied AI, at McGill University, starting January 2027.
 
-## What I've worked on
+I work on machine learning, medical image segmentation, reinforcement learning, and robotics. Based in Dubai, UAE.
 
-- **Deep Learning Segmentation of the Stratum Corneum in OCT Images** — MEng dissertation. Built an end-to-end PyTorch pipeline, benchmarked U-Net, DeepLabV3+, and U-Net++ under a unified evaluation protocol. Best model: Mean IoU 0.886, Dice score 0.937.
-- **RL-Navigation** — A custom Gymnasium environment exploring the trade-off between reward maximisation and constraint satisfaction using PPO, studying how agent behaviour shifts under different safety constraints.
-- **ROS2 Autonomous Exploration with SLAM** — Autonomous exploration and SLAM system for a TurtleBot3 in an unknown, time-constrained environment. Implemented navigation nodes and reactive control logic using a finite state machine, validated on physical hardware.
-- **QSAR Biodegradability Prediction** — Comparing Logistic Regression, SVM, and Naive Bayes for chemical biodegradability classification on molecular descriptor data.
-- **Household Energy Consumption Prediction** — Linear and polynomial regression models for household energy demand, with feature selection and validation.
-- **Monte Carlo Stock Price Simulation** — One-year stock price forecasting using historical volatility and geometric Brownian motion.
+[LinkedIn](https://www.linkedin.com/in/eljilani-hbal-1a167a255/) · [Repositories](https://github.com/Ji2424?tab=repositories)
+
+<br clear="right">
+
+## Featured projects
+
+### [OCT skin segmentation](https://github.com/Ji2424/Deep-Learning-Based-Segmentation-of-the-Stratum-Corneum-in-OCT-Images)
+
+MEng dissertation comparing U-Net, DeepLabV3+, and U-Net++ for segmenting skin structures in ultra-high-resolution OCT images. Built a PyTorch workflow for preprocessing, training, and evaluation. The repository reports a mean IoU of 0.8860 and mean Dice of 0.9372 for U-Net++, alongside CPU inference benchmarks.
+
+**Tools:** Python, PyTorch, MATLAB, Albumentations, OpenCV.
+
+### [Safety-constrained RL navigation](https://github.com/Ji2424/RL-Navigation)
+
+A custom 8 × 8 Gymnasium environment using PPO to study how safety penalties affect navigation. Tracks task performance and safety violations separately, with experiments across different penalty values.
+
+**Tools:** Python, Gymnasium, Stable-Baselines3.
+
+[![Navigation safety and performance experiment](https://raw.githubusercontent.com/Ji2424/RL-Navigation/main/safety_tradeoff.png)](https://github.com/Ji2424/RL-Navigation)
+
+### [Chemical biodegradability prediction](https://github.com/Ji2424/Predicting-the-Biodegradability-of-Chemicals-from-QSAR-Data-in-Matlab)
+
+Compared logistic regression, an RBF support vector machine, and Gaussian Naive Bayes using molecular descriptors from the UCI QSAR Biodegradation dataset. The repository reports 88.2% accuracy and 0.920 AUC for logistic regression.
+
+**Tools:** MATLAB, classification, ROC analysis.
+
+## Other work
+
+- **[ROS 2 learning app](https://github.com/Ji2424/ros2-learning-app):** Early Next.js and TypeScript frontend prototype with a home page and learning-path introduction. Interactive lessons and simulations are planned.
+- **ROS 2 autonomous exploration:** TurtleBot3 exploration and SLAM project with navigation nodes and finite-state control, tested on physical hardware.
+- **[Household energy prediction](https://github.com/Ji2424/ML-Predicting-household-energy-consumption-):** MATLAB regression study. The README documents evaluation limitations and the checks required before interpreting the reported results.
+- **[Monte Carlo simulation](https://github.com/Ji2424/monte-carlo-simulation):** Simulates 10,000 stock-price paths using geometric Brownian motion to explore outcomes under model assumptions.
 
 ## Skills
 
-`Python` `PyTorch` `Scikit-Learn` `C/C++` `MATLAB` `LangChain` `RAG` `Reinforcement Learning` `Computer Vision` `Deep Learning` `ROS2` `SLAM` `Git` `Linux`
-
-## Let's connect
-
-[LinkedIn](https://www.linkedin.com/in/eljilani-hbal-1a167a255/) · Dubai, UAE / Sheffield, UK
+Python · PyTorch · MATLAB · C/C++ · ROS 2 · SLAM · Computer vision · Reinforcement learning · Git · Linux
